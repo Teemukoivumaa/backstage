@@ -56,7 +56,7 @@ import {
   templateStepReadPermission,
 } from '@backstage/plugin-scaffolder-common/alpha';
 import {
-  createScaffolderActionConditionalDecision,
+  createScaffolderTemplateConditionalDecision,
   scaffolderTemplateConditions,
 } from '@backstage/plugin-scaffolder-backend/alpha';
 /* highlight-add-end */
