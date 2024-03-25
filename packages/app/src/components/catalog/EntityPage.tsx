@@ -186,6 +186,7 @@ import {
   EntityLinguistCard,
 } from '@backstage/plugin-linguist';
 import { EntityTeamPullRequestsContent } from '@backstage/plugin-github-pull-requests-board';
+import { ExampleComponent } from '@backstage/plugin-dependency-flow';
 
 const customEntityFilterKind = ['Component', 'API', 'System'];
 
@@ -871,6 +872,9 @@ const systemPage = (
     </EntityLayout.Route>
     <EntityLayout.Route path="/feedback" title="Feedback">
       <EntityFeedbackResponseContent />
+    </EntityLayout.Route>
+    <EntityLayout.Route path="/dependency-flow" title="Dependency flow">
+      <ExampleComponent />
     </EntityLayout.Route>
   </EntityLayoutWrapper>
 );

@@ -60,6 +60,7 @@
     "@backstage/plugin-cloudbuild": "workspace:^",
     "@backstage/plugin-code-coverage": "workspace:^",
     "@backstage/plugin-cost-insights": "workspace:^",
+    "@backstage/plugin-dependency-flow": "^0.0.0",
     "@backstage/plugin-devtools": "workspace:^",
     "@backstage/plugin-dynatrace": "workspace:^",
     "@backstage/plugin-entity-feedback": "workspace:^",
